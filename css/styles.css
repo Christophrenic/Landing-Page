@@ -44,8 +44,6 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
-    flex-wrap: wrap;
-    margin-top:
 }
 
 .firstpanel .hero_container {
@@ -53,7 +51,6 @@ body {
     display: flex;
     flex-direction: column;
     margin-right: 315px;
-    flex-shrink: 0;
 }
 
 .firstpanel .hero_container .first_button {
@@ -61,6 +58,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 80px;
+    flex-shrink: 0px;
 
 }
 
@@ -78,4 +76,39 @@ body {
     width: 500px;
     height: 300px;
     border: 2px solid white;
+}
+
+/* SECOND PANEL */
+
+.secondpanel {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.secondpanel .subtext {
+    display: flex;
+    flex-direction: row;
+}
+.secondpanel .h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.secondpanel .images_container {
+    display: flex;
+    justify-content: space-around
+}
+
+.secondpanel .images_container img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.secondpanel .subtext
+{
+    height: 100px;
+    justify-content: space-evenly;
 }
