@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+/* BEGINNNING OF STYLING HEADER */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.header p {
+    font-weight: 600;
+    font-size: 24px;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 17px;
+    gap: 15px;
+    align-items: center;
+}
+/* BEGINNING STYLING HERO PANEL */
+.firstpanel {
+    display: flex;
+    background-color: #1F2937;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstpanel h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0px;
+    display: flex;
+}
+
+.firstpanel p {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:
+}
+
+.firstpanel .hero_container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 315px;
+    flex-shrink: 0;
+}
+
+.firstpanel .hero_container .first_button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 80px;
+
+}
+
+.firstpanel .hero_container .first_button button {
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    border: 1px solid;
+
+}
+
+.firstpanel .image_container img {
+    width: 500px;
+    height: 300px;
+    border: 2px solid white;
+}
